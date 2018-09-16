@@ -5,7 +5,7 @@ const Header = props => {
   return (
     <nav className="navbar navbar-light bg-dark">
       <span className="navbar-brand mb-0 h1" style={textColor}>
-        Three-eyed Raven Memory Challenge - Don't click the same character twice
+        Three-eyed Raven's Memory Challenge - Don't click the same character twice
       </span>
     </nav>
   );
