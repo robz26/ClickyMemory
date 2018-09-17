@@ -92,7 +92,7 @@ class App extends Component {
             name={imgArr[0].name}
             value={this.state.value}
             shuffleArr={this.clickValue}
-            shuffle={this.shuffle(imgArr)}
+            shuffle={() => this.shuffle(imgArr)}
           />
           <Image
             imageNum={imgArr[1].img}
